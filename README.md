@@ -63,19 +63,6 @@ npm start
 
 This will open the project in your default browser at \`http://localhost:3000\`. The clock will start running and update every second.
 
-## File Structure
-
-Here’s an overview of the main files in the project:
-
-\`\`\`plaintext
-src/
-│
-├── App.js          # Main app component that renders the clock
-├── Clock.js        # Component that handles the 7-segment clock display
-├── Clock.css       # Styling for the 7-segment clock
-└── index.js        # Entry point for the React application
-\`\`\`
-
 ## Future Enhancements
 
 - **AM/PM Format**: Option to toggle between 24-hour and 12-hour formats.
