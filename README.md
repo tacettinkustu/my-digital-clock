@@ -2,6 +2,12 @@
 
 This project is a digital clock widget built using React, styled to resemble a classic 7-segment display. Each number is displayed using 7 segments, where the segments light up based on the number's pattern. The design includes arrow-shaped ends for the segments, giving a unique visual style to the clock.
 
+
+
+https://github.com/user-attachments/assets/c05d1cf6-a40d-4808-bee8-54f7605cbbb3
+
+
+
 ## Features
 
 - Displays the current time in `HH:MM:SS` format.
