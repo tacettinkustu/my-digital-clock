@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    padding-top: 60px;
+  }
+  
+  .digital-clock {
+    display: flex;
+    gap: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .digit {
+    position: relative;
+    width: 60px;
+    height: 120px;
+    margin: 8px;
+  }
+  
+  .segment {
+    position: absolute;
+    width: 44px;
+    height: 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    text-align: center;
+
+  }
+  
+  .segment.a {
+    top: 0;
+    left: 8px;
+    width: 44px;
+  }
+  
+  .segment.b {
+    top: 8px;
+    right: 0;
+    height: 44px;
+    width: 8px;
+  }
+  
+  .segment.c {
+    bottom: 8px;
+    right: 0;
+    height: 44px;
+    width: 8px;
+  }
+  
+  .segment.d {
+    bottom: 0;
+    left: 8px;
+    width: 44px;
+  }
+  
+  .segment.e {
+    bottom: 8px;
+    left: 0;
+    height: 44px;
+    width: 8px;
+  }
+  
+  .segment.f {
+    top: 8px;
+    left: 0;
+    height: 44px;
+    width: 8px;
+  }
+  
+  .segment.g {
+    top: 50%;
+    left: 8px;
+    width: 44px;
+    transform: translateY(-50%);
+  }
+  
+  .segment.active {
+    background-color: white;
+  }
+  
+  .colon {
+    font-size: 80px;
+    line-height: 1;
+    color: white;
+  }
